@@ -1,0 +1,60 @@
+a:hover, a:active{
+background-color: red;
+color:purple;	
+}
+
+a:link,a:visited
+{
+	text-decoration: none;
+	background-color: darkcyan;
+	border:1px solid blue;
+	display: block;
+	text-align: center;
+}
+
+h1
+{
+	text-align:center;
+	color:purple;
+	font-style: italic;
+	font-family: sans-serif;
+}
+ body
+ {
+ 	background-color: lightblue;
+
+ }
+ p,i
+ {
+ 	color:darkblue;
+ 	text-transform: uppercase;
+ }
+ ul
+ {
+ 	font-style: italic;
+ 	font-size: 25px;
+ }
+ ol
+ {
+ 	font-style:bold;
+ 	font-size:24px;
+ 	color:darkcyan;
+
+ }
+
+ table
+ {
+ 	background-color: violet;
+ }
+
+ .style{
+ 	font-style: bold;
+ 	font-size:20px;
+ }
+
+ .color
+ {
+ 	color:green;
+ 	font-style: 900;
+
+ }
