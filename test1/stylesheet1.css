@@ -1,0 +1,41 @@
+h1 {
+	color: orange;
+	text-align: center;
+	font-size: 30px;
+	 }
+h3
+{
+	color: maroon;
+	font-size: 15px;
+	font-style: arial;
+}
+
+p,i
+{
+	color:white;
+	font-size: 30px;
+}
+
+body
+{
+	background-color: black;
+	font-size: 20px;
+	color:orange;
+}
+
+table
+{
+	color:yellow;
+}
+
+figcaption
+{
+	color:orange;
+	font-style: arial;
+}
+
+ul,ol
+{
+	color:white;
+	font-style: arial;
+}
