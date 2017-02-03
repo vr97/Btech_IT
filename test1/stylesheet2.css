@@ -1,0 +1,28 @@
+body
+{
+	background-color: orange;
+
+}
+h1,h3
+{
+	color:white;
+	background-color: red;
+	text-align: center;
+	font-style: arial;
+}
+
+ul,ol
+{
+	font-size: 200%;
+}
+
+p,i
+{
+	background-color: yellow;
+}
+
+table
+{
+	color:red;
+
+}
