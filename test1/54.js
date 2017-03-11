@@ -45,6 +45,18 @@ document.addEventListener("DOMContentLoaded",
             .querySelector("h1")
             .textContent = title;
       }
+      else{
+           
+        var title = 
+          document
+            .querySelector("#title")
+            .textContent;
+        title = "NOT SAME STRINGS !!!";
+        document
+            .querySelector("h1")
+            .textContent = title;
+      }
+      
 
 
 
