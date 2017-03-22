@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded",
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
+          
+              document.querySelector("#content")
                 .innerHTML = q1;
+                
             });
       });
   }
