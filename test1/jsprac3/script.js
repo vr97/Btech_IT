@@ -5,10 +5,16 @@ document.addEventListener("DOMContentLoaded",
     // Unobtrusive event binding
     document.getElementById("exam")
       .addEventListener("click", function () {
+
+        var n = document.getElementById("name")
+        document
+          .innerHTML=n;
+
+
         
         // Call server to get the name
         $ajaxUtils
-          .sendGetRequest("data\name.json", 
+          .sendGetRequest("name.json", 
             function (res) {
               var message = 
                 res.firstName + " " + res.lastName
@@ -17,10 +23,8 @@ document.addEventListener("DOMContentLoaded",
              
               
 
-             
               document.querySelector("#content")
                 .innerHTML = q1;
-                
             });
       });
   }
